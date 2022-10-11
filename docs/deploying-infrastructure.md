@@ -26,7 +26,7 @@ gcloud compute addresses create moodle-ingress-ip --global
 
 ```
 gcloud services enable servicenetworking.googleapis.com \
-  &nbsp;--project=$PROJECT_ID
+  --project=$PROJECT_ID
 ```
 
 4. Creates a new Virtual Private Network (VPC) and a subnet to host Moodle's resources.
