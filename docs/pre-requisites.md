@@ -69,6 +69,7 @@ If you have not done so already, you should enable the APIs for the following se
    * Cloud Load Balancer
    * reCAPTCHA Enterprise
    * Compute Engine
+   * Memorystore for Redis
 
 <p align="center">
     <img src="img/../../img/enabling-api-console.png">
@@ -87,7 +88,8 @@ gcloud services enable \
     sql-component.googleapis.com \
     sqladmin.googleapis.com \
     file.googleapis.com \
-    recaptchaenterprise.googleapis.com
+    recaptchaenterprise.googleapis.com \
+    redis.googleapis.com
 ```
 
 ## Install `gcloud` command line extension
