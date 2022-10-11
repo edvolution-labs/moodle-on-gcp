@@ -13,6 +13,6 @@
 
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/moodle-gke-sandbox/moodle-filestore', '.']
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/moodle-gke-sandbox/moodle-filestore/moodle:$BUILD_ID', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/moodle-gke-sandbox/moodle-filestore']
+  args: ['push', 'us-central1-docker.pkg.dev/moodle-gke-sandbox/moodle-filestore/moodle:$BUILD_ID']
