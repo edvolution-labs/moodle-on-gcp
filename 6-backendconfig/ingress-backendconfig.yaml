@@ -39,7 +39,7 @@ spec:
   #     queryStringBlacklist: ""
   #     queryStringWhitelist: ""
   # to uncoment when gke >= 1.23.3-gke.900
-    # cacheMode: CACHE_ALL_STATIC
-    # clientTtl: 3600
-    # defaultTtl: 3600
-  #   maxTtl: 86400
+    cacheMode: CACHE_ALL_STATIC
+    clientTtl: 3600
+    defaultTtl: 3600
+    maxTtl: 86400
