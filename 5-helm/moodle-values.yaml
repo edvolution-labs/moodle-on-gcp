@@ -15,9 +15,9 @@
 ## ref: https://hub.docker.com/r/bitnami/moodle/tags/
 ##
 image:
-  registry: us-central1-docker.pkg.dev/moodle-gke-sandbox/moodle-filestore/moodle
-  repository: moodle-filestore/moodle@sha256
-  tag: 4f072442816f4533189aa839c8f0b7bf54e17aa3e889eb2bdf34a07b4ebb03f2
+  registry: us-central1-docker.pkg.dev/moodle-gke-sandbox
+  repository: moodle-filestore/moodle
+  tag: 4bda1baa-2705-4172-b434-1673417c2c16
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
   ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
