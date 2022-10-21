@@ -18,7 +18,7 @@ metadata:
   namespace: moodle
 spec:
   redirectToHttps:
-    enabled: true
+    enabled: false
     # MOVED_PERMANENTLY_DEFAULT to return a 301 redirect response code (default if responseCodeName is unspecified).
     # FOUND to return a 302 redirect response code.
     # SEE_OTHER to return a 303 redirect response code.
