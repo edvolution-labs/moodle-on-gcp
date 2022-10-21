@@ -15,8 +15,8 @@
 ## ref: https://hub.docker.com/r/bitnami/moodle/tags/
 ##
 image:
-  registry: us-central1-docker.pkg.dev
-  repository: moodle-gke-sandbox/moodle-filestore/moodle
+  registry: us-central1-docker.pkg.dev/moodle-gke-sandbox
+  repository: moodle-filestore/moodle
   tag: latest
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
