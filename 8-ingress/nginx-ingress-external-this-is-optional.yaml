@@ -31,7 +31,7 @@ spec:
     - moodle.34.111.208.121.nip.io
     secretName: tls-secret
   rules:
-  - host: moodle.34.111.208.121.nip.io.nip.io
+  - host: moodle.34.111.208.121.nip.io
     http:
       paths:
         - path: /
